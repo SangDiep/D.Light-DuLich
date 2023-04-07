@@ -243,7 +243,11 @@ footer{
 
 /* may tinh  */
 @media all and (min-width: 992px) {
-  
+    .menu li{
+        padding: 12px 15px;
+        display: inline;
+        /* border: 1px solid;  */
+    }
     nav{
         border-radius: 8px;
         background-color: rgba(4, 58, 138, 0.629);
