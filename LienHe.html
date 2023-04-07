@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ Du Lịch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="TrangChu.css">
+    <link rel="shortcut icon" href="/ASM/HinhAnh/logotren.png" type="image/x-icon">
+    <style>
+        
+        @media all and (min-width: 240px){
+            button{
+            font-size: 25px; border-radius: 5000px; padding: 25px 35px;
+        }
+         
+        }
+        /* Điện thoại ngang */
+        @media all and (min-width: 576px){   
+            button i{
+             padding: 30px 25px ;
+        }
+            
+        }
+
+        /* Máy tính bảng */
+        @media all and (min-width: 768px) {
+
+            
+        }
+
+        /* may tinh  */
+        @media all and (min-width: 992px) {
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img id="logo" src="/ASM/HinhAnh/logo (1).png" alt="">
+        <i id="menuSmall" onclick="showMenu()" class="fa fa-bars bagach"></i>
+        <ul  id="menuBig" class="menu">
+            <li><a href="/ASM/index.html">TRANG CHỦ</a></li>
+            <li><a href="/ASM/TinTuc.html">TIN TỨC</a></li>
+            <li><a href="/ASM/LienHe.html">LIÊN HỆ</a></li>
+            <li><a href="">INBOUND</a></li>
+            <li><a href="">TRAVEL TIPS</a></li>
+            <li><a href="">KHÁCH SẠN</a></li>
+        </ul>
+    </header>
+    <img src="/ASM/HinhAnh/Lienhe.jpg" alt="" width="100%">
+    <script>
+        function showMenu(){
+            if(document.getElementById('menuBig').style.display=='none'){
+                document.getElementById('menuBig').style.display='block';
+            }else{
+                document.getElementById('menuBig').style.display='none';
+            }
+        }
+    </script>
+    
+    <div class="container-xl p-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button > <i class="fa fa-phone"></i></button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">
+                        1900 6668</div>
+                    <div>Hãy gọi cho chúng tôi
+                        khi cần đặt tour</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button > <i class="fa fa-envelope-o"></i></button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">
+                        benthanh@benthanh.com</div>
+                    <div>Email cho chúng tôi
+                        khi bạn cần giúp đỡ</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button > <i class="fa fa-send"></i></button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">
+                        70 Lý Tự Trọng P. Bến Thành, Quận 1, TP. Hồ Chí Minh</div>
+                </div>
+            </div>
+        </div>
+        <h4 class="chuhot text-center pt-5">Ý KIẾN ĐÓNG GÓP CỦA KHÁCH HÀNG</h4>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Gmail">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Họ Và Tên</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Số Điện Thoại</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Nội Dung</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+        <label class="btn btn-primary" for="btn-check-2">Gửi</label>
+        <h4 class="chuhot text-center pt-5">HỆ THỐNG VĂN PHÒNG CỦA BENTHANH TOURIST</h4>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >1</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">Trụ Sở Chính</div>
+                    <div>70 Lý Tự Trọng, Q.1, TPHCM</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >2</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">Trung Tâm Du Lịch Khách Lẻ</div>
+                    <div>Số 03-05 Nguyễn Huệ, P. Bến Nghé, Q.1, TP. Hồ Chí Minh</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >3</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">Chi nhánh Hà Nội</div>
+                    <div>Tầng 4, Toà nhà Kinh Đô 93 Lò Đúc, Hai Bà Trưng, Hà Nội</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >4</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">Chi nhánh Đà Nẵng</div>
+                    <div>90 Quang Trung, P.Thạch Thang, Q. Hải Châu, Tp Đà Nẵng.</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >5</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">VPDL Huế</div>
+                    <div>18 Lê Lợi, P. Vĩnh Ninh, TP. Huế, Tỉnh Thừa Thiên Huế.</div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <a href="" class="text-center d-flex justify-content-center" >
+                    <button >6</button>
+                    
+                </a>
+                <div class="text-center">
+                    <div class="chuhot">Chi nhánh Vĩnh Long - Khu du lịch Vinh Sang</div>
+                    <div>Tổ 14, Ấp An Thuận, xã An Bình, huyện Long Hồ, tỉnh Vĩnh Long</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="article2">
+            <div class="row">
+                <div class="column2">
+                    <div class="oj">
+                        <div class="chu2" style="color: rgb(255, 255, 255); ">
+                            <h4 style="font-weight: 500; ">ĐIỂM ĐẾN</h4>
+                        </div>
+                        <div><a href="">Du lịch Miền Bắc</a></div>
+                        <div><a href="">Du lịch Miền Trung</a></div>
+                        <div><a href="">Du lịch Miền Nam</a></div>
+                        <div><a href="">Du lịch Miền Tây</a></div>
+                        <div><a href="">Du lịch Tây Bắc</a></div>
+                        <div><a href="">Du lịch Tây Nguyên</a></div>
+                        <div><a href="">Du lịch Châu Á</a></div>
+                        <div><a href="">Du lịch Châu Âu</a></div>
+                        <div><a href="">Du lịch Châu Úc</a></div>
+                        <div><a href="">Du lịch Châu Mỹ</a></div>
+                        <div><a href="">Du lịch Châu Phi</a></div>
+                        <div><a href="">Du lịch Biển Đảo</a></div>             
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="oj">
+                        <div class="chu2" style="color: rgb(255, 254, 254); ">
+                            <h4 style="font-weight: 500; ">TOUR ĐANG HOT</h4>
+                        </div>
+                        <div><a href="">Du lịch Đà Nẵng</a></div>
+                        <div><a href="">Du lịch Phú Quốc</a></div>
+                        <div><a href="">Du lịch Phan Thiết</a></div>
+                        <div><a href="">Du lịch Tây Ninh</a></div>
+                        <div><a href="">Du lịch SAPA</a></div>
+                        <div><a href="">Du lịch Tây Nguyên</a></div>
+                        <div><a href="">Du lịch Đà Lạt</a></div>
+                        <div><a href="">Du lịch Nha Trang</a></div>
+                        <div><a href="">Du lịch Cao Bằng</a></div>
+                        <div><a href="">Du lịch Long An</a></div>
+                        <div><a href="">Du lịch Đồng Nai</a></div>           
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="oj">
+                        <div class="chu2" style="color: rgb(255, 255, 255); ">
+                            <h4 style="font-weight: 500; ">TOUR ĐƯỢC NHIỀU NGƯỜI TÌM KIẾM</h4>
+                        </div>
+                        <div><a href="">Du lịch Vũng Tàu</a></div>
+                        <div><a href="">Du lịch Bạc Liêu</a></div>
+                        <div><a href="">Du lịch Bắc Ninh</a></div>
+                        <div><a href="">Du lịch Bến Tre</a></div>
+                        <div><a href="">Du lịch Bình Dương</a></div>
+                        <div><a href="">Du lịch Bình Định</a></div>
+                        <div><a href="">Du lịch Bình Phước</a></div>
+                        <div><a href="">Du lịch Ca Mau</a></div>
+                        <div><a href="">Du lịch Cần Thơ</a></div>
+                        <div><a href="">Du lịch Đà Nẵng</a></div>
+                        <div><a href="">Du lịch Hà Nội</a></div>
+                        <div><a href="">Du lịch Hải Phòng</a></div>
+                        <div><a href="">Du lịch TP.HCM</a></div>
+                        <div><a href="">Du lịch Hưng Yên</a></div>
+                        <div><a href="">Du lịch Nghệ An</a></div>
+                        <div><a href="">Du lịch Phú Thọ</a></div>
+                        <div><a href="">Du lịch Quảng Ngãi</a></div>
+                        <div><a href="">Du lịch Trà Vinh</a></div>
+                        <div><a href="">Du lịch Yên Bái</a></div>        
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="oj">
+                        <div class="chu2" style="color: rgb(255, 255, 255); ">
+                            <h4 style="font-weight: 500; ">HOTLINE</h4>
+                        </div>
+                        <div class="thidai">Khách lẻ: <a href=""> 0287.302.3xxx</a></div>
+                        <div class="thidai">Tour trong nước:<a href=""> 0909.189.xxx</a></div>
+                        <div class="thidai">Tour nước ngoài:<a href=""> 0919.696.xxx</a></div>
+                        <div class="thidai">Vé máy bay:<a href=""> 0132.6566.xxx</a></div>   
+                    </div>
+                </div>
+                <div class="column2">
+                    <div class="oj">
+                        <div class="chu2" style="color: rgb(255, 255, 255); ">
+                            <h4 style="font-weight: 500; ">LIÊN HỆ</h4>
+                        </div>
+                        <div style="color: rgb(255, 255, 255); ">
+                            <div>CÔNG TY CỔ PHẦN DỊCH VỤ DU LỊCH BẾN THÀNH
+                                (BENTHANH TOURIST)</div>
+                            <div>Trụ sở: 7 Lý Tự Trọng, P. Bến Thành, Quận 12, TP. Hồ Chí Minh</div>
+                            <div>Tel: 028.3520 2xxx</div>
+                            <div>Email: benthanh@benthanhxxxx.com</div>
+                            <div>Tổng Đài: 1900 6xxx</div>  
+                        </div>
+                        <img src="/ASM/HinhAnh/bgr/thongbeu.png" alt="" style="padding: 15px;">
+                        <img src="/ASM/HinhAnh/bgr/thong.jpg" alt=""> 
+                        <img src="/ASM/HinhAnh/bgr/thongbao.png" alt="" width="100%"  style="padding: 15px;">    
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </footer>
+    
+    
+</body>
