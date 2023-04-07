@@ -23,7 +23,7 @@ header{
 
 .menu li{
     display: inline-block;
-    padding: 12px 10px;
+    padding: 12px 0px;
     background-color: rgb(50, 50, 151);;
 }
 .menu li a{
@@ -222,6 +222,7 @@ footer{
         margin-top: 35px;
     }
     .menu li{
+        padding: 12px 10px;
         display: inline;
         /* border: 1px solid;  */
     } 
@@ -242,6 +243,11 @@ footer{
 
 /* may tinh  */
 @media all and (min-width: 992px) {
+    .menu li{
+        display: inline-block;
+        padding: 12px 15px;
+        background-color: rgb(50, 50, 151);;
+    }
     nav{
         border-radius: 8px;
         background-color: rgba(4, 58, 138, 0.629);
