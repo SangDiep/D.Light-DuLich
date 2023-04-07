@@ -46,7 +46,7 @@ article{
     height: auto;
     background-repeat: repeat-y;
     background-size: 100%;
-    background-image: url(/ASM/HinhAnh/bgr/bgr5.jpg);
+    background-image: url(HinhAnh/bgr/bgr5.jpg);
 }
 .article2{
     background: linear-gradient(rgba(0,0,0,0), rgba(0, 4, 87, 0.723));
